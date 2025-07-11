@@ -53,9 +53,9 @@ int main()
         counts++;
     }
 
-    cout << counts << endl;
-    cout << first << endl;
-    cout << last << endl;
+    cout << " " << endl << "The are " << counts << " students in this line" << endl;
+    cout << first << " should be at the front of the line" << endl;
+    cout << last << " should be at the back of the line" << endl;
 
 
 
