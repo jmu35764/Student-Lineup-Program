@@ -18,39 +18,25 @@ int main()
     }
     string name;
 
-    string first = "z";
+    string first = "z"; // The value of first kept coming out as nothing, so it was set to a character with a large value
     string last = name;
 
 
     while (getline(inFile, name)) 
     { // Read line by line
         cout << name << endl;
-
-        //first = name;
-        //last = name;
-
-
         
         if (name > last)
         {
-
             last = name;
-           // cout << "Test" << endl;
-
-
         }
 
         if (name < first)
         {
             first = name;
-            //cout << "Test" << endl;
-        }
-        
-        
+        }          
 
-
-
-        counts++;
+        counts++; // Counts each iteration of the loop
     }
 
     cout << " " << endl << "The are " << counts << " students in this line" << endl;
