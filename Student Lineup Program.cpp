@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {   
     int counts = 0;
-    string filename = "D:\\Computer Classes\\CSC 221\\Module 5\\LineUp.txt";
+    string filename = "LineUp.txt";
     ifstream inFile(filename); // Open file for reading
     if (!inFile) 
     {
